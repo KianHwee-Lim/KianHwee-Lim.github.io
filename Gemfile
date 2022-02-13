@@ -14,5 +14,5 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
-  gem 'jekyll-spaceship' #for mathjax 
+  # gem 'jekyll-spaceship' #for mathjax, doesn't work on github pages
 end

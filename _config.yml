@@ -67,7 +67,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-spaceship #for mathjax
+  # - jekyll-spaceship #for mathjax, but doesn't work on github pages
 
 repository: KianHwee-Lim/KianHwee-Lim.github.io
 
