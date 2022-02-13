@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Kian Hwee's website
+email: kianhwee_lim@u.nus.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username: username
-github_username: username
+github_username: KianHwee-Lim
 minimal_mistakes_skin: default
 search: true
 
@@ -48,6 +48,17 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - TO_DO.md
+  - README.md
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -56,36 +67,50 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-spaceship #for mathjax
+
+repository: KianHwee-Lim/KianHwee-Lim.github.io
 
 author:
-  name   : "First Lastname"
+  name   : "Lim Kian Hwee"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  bio    : "Sinner saved by grace. Also a PhD student at CQT."
+  location: "Singapore"
+  linkedin: kian-hwee-lim-16b91215b
+  github: KianHwee-Lim
+  email: kianhwee_lim@u.nus.edu
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  links: #have to use links cause not defined in template above like github etc
+    - label: Google Scholar
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=8j2eqUQAAAAJ&hl=en"
+    - label: ORCID
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/0000-0003-2154-4288"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
+
+# footer:
+#   links:
+#     # - label: "Twitter"
+#     #   icon: "fab fa-fw fa-twitter-square"
+#     #   url: "https://twitter.com/"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://instagram.com/"
 
 defaults:
   # _posts
@@ -106,6 +131,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _research
+  - scope:
+      path: ""
+      type: research 
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 category_archive:
   type: liquid
@@ -113,3 +149,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+#collections
+collections:
+  research:
+    output: true
+    permalink: /:collection/:path/
