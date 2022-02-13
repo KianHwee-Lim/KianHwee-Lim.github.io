@@ -13,13 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+repository: KianHwee-Lim/KianHwee-Lim.github.io
+url: KianHwee-Lim.github.io
+name: "Kian Hwee's website"
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+description: "Kian Hwee's research and his thoughts on Physics and Theology (and other stuff)."
 title: Kian Hwee's website
 email: kianhwee_lim@u.nus.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
+# twitter_username: username
 github_username: KianHwee-Lim
 minimal_mistakes_skin: default
 search: true
@@ -69,7 +74,6 @@ plugins:
   - jekyll-include-cache
   # - jekyll-spaceship #for mathjax, but doesn't work on github pages
 
-repository: KianHwee-Lim/KianHwee-Lim.github.io
 
 author:
   name   : "Lim Kian Hwee"
