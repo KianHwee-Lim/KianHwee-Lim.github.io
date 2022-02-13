@@ -16,4 +16,5 @@ Ya-da, Ya-da, $\frac{\partial f}{\partial x}$, $$\int_a^b f(x) dx$$
 
 <!-- more -->
 
-Woop woop
+Woop woop. Hope the math thing works. If it does, you should see some beautiful math:
+$$ \int_{-infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$
