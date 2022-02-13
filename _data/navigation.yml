@@ -5,6 +5,8 @@ main:
     url: /research/
   - title: "Posts by Category"
     url: /categories/
+  - title: "Things to share"
+    url: /thingstoshare/
   # - title: "Tags" 
   #   url: /tags/
   - title: "About me"

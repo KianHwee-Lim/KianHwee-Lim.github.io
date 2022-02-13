@@ -146,6 +146,16 @@ defaults:
       comments: true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: thingstoshare
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 category_archive:
   type: liquid
@@ -157,5 +167,8 @@ tag_archive:
 #collections
 collections:
   research:
+    output: true
+    permalink: /:collection/:path/
+  thingstoshare:
     output: true
     permalink: /:collection/:path/
