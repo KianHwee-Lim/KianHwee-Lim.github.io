@@ -3,7 +3,7 @@ main:
   #   url: /posts/
   - title: Research
     url: /research/
-  - title: "Posts by Category"
+  - title: "Blog posts"
     url: /categories/
   - title: "Things to share"
     url: /thingstoshare/
