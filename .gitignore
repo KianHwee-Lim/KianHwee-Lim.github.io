@@ -2,5 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
-old_site.zip
+old_site_and_resources.zip
 TO_DO.md
