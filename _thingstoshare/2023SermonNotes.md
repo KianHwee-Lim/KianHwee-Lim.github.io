@@ -2,7 +2,7 @@
 title: "Sermon notes for 2023"
 collection: thingstoshare 
 permalink: /thingstoshare/2023SermonNotes
-excerpt: 'Sermon notes that I took from the sermons preached at True Way Presbyterian Church in 2022'
+excerpt: 'Sermon notes that I took from the sermons preached at True Way Presbyterian Church in 2023'
 ---
 
 These sermon notes will be updated every week.
