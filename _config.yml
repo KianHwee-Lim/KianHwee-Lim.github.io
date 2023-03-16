@@ -123,7 +123,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: False
       read_time: true
       comments: true
       share: true
@@ -134,14 +134,14 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: False
   # _research
   - scope:
       path: ""
       type: research 
     values:
       layout: single
-      author_profile: true
+      author_profile: False
       read_time: true
       comments: true
       share: true
@@ -151,7 +151,7 @@ defaults:
       type: thingstoshare
     values:
       layout: single
-      author_profile: true
+      author_profile: False
       read_time: true
       comments: true
       share: true
